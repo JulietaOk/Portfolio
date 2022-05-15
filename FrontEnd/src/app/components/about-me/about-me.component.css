@@ -1,0 +1,36 @@
+.row {
+    background-color: #6d7997;
+    text-align: center;
+    color: #ffff;
+    padding: 20px;
+}
+
+img {
+    width: 450px;
+    height: 550px;
+}
+
+h1 {
+    margin: 2em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: plum;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(238, 152, 195, 0.5);
+}
+
+.download-cv:hover {
+   background-color: #ffff; 
+   box-shadow: none;
+}
+

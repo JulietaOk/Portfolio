@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #473d3f;
+}
+
+.logo-AP {
+    width: 150px;
+}
+
+.redes {
+    margin-right: 0.5em; 
+}
+
+img {
+    width: 50px;
+}
+
+.btn {
+    border-width: medium;
+    border-radius: 2em;
+}
+
+@media (max-width: 575px) {
+.container {
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes img {
+    margin: 0.2em;
+}
+}
