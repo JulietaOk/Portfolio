@@ -1,7 +1,7 @@
 .row {
-    background-color: #6d7997;
+    background-color: #d9d9d9;
     text-align: center;
-    color: #ffff;
+    color: black;
     padding: 20px;
 }
 
@@ -21,7 +21,7 @@ p {
 
 .download-cv {
     padding: 10px 20px;
-    background-color: plum;
+    background-color: #ff66c4;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
