@@ -1,10 +1,10 @@
-package com.portfolio.julieta;
+package com.jpl.portfolioap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JulietaApplicationTests {
+class PortfolioApApplicationTests {
 
 	@Test
 	void contextLoads() {
