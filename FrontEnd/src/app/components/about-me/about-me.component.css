@@ -1,24 +1,41 @@
 .row {
-    background-color: #d9d9d9;
-    text-align: center;
-    color: black;
-    padding: 20px;
+    background-color:#5e17eb;
+    color: #ffff;
 }
 
-img {
-    width: 450px;
-    height: 550px;
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    width: 100vw;
+    align-items: center;
 }
 
-h1 {
-    margin: 2em;
-    text-align: center;
+.info-img{
+    width: 100%;
+    grid-column: 1/2;
 }
 
-p {
-    text-align: center;
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: #cb6ce6;
+    margin-top: 10px;
+    margin-bottom: 3em;
 }
 
+.about-info{
+   align-items: center;
+    padding: 3em;
+    grid-column: 2/2;
+}
+
+.about-info h1{
+    font-size: 2em;
+}
+
+.about-info p{
+    font-size: 1.5em;
+}
 .download-cv {
     padding: 10px 20px;
     background-color: #ff66c4;
@@ -33,4 +50,3 @@ p {
    background-color: #ffff; 
    box-shadow: none;
 }
-

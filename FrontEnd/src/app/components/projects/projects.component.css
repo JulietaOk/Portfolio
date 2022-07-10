@@ -1,6 +1,6 @@
 .row {
-    background: #d9d9d9;
-    padding: 20px;
+    background-color:#5e17eb;
+    color: #ffff;
 }
 
 .container {
@@ -8,7 +8,6 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding: 30px;
 }
 
 h1{
@@ -23,8 +22,9 @@ img {
 .card {
     width: 300px;
     height: 450px;
-    background-color: #c0b7c7;
+    background-color: plum;
     margin: 1em;
+    color: #000;
 }
 .card h2 {
     padding: 20px;
