@@ -1,5 +1,9 @@
-video{
-    width: max-content;
-    height: max-content;
-    
+.row {
+    background-color:#5e17eb;
+    color: #ffff;
 }
+
+video{
+    width: 100%;
+}
+

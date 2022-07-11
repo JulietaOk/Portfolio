@@ -5,20 +5,17 @@
 
 .about{
     display: grid;
-    grid-template-columns: repeat(2,6fr);
     width: 100vw;
     align-items: center;
 }
 
 .info-img{
-    width: 100%;
-    grid-column: 1/2;
+    width:100%;
 }
 
 .about-info{
-   align-items: center;
     padding: 3em;
-    grid-column: 2/2;
+    
 }
 
 .about-info h1{
@@ -42,5 +39,7 @@
    background-color: #ffff; 
    box-shadow: none;
 }
+
+
 
 
