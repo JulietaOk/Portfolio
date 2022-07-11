@@ -15,14 +15,6 @@
     grid-column: 1/2;
 }
 
-.divider{
-    height: 4px;
-    width: 60px;
-    background-color: #cb6ce6;
-    margin-top: 10px;
-    margin-bottom: 3em;
-}
-
 .about-info{
    align-items: center;
     padding: 3em;
@@ -50,3 +42,5 @@
    background-color: #ffff; 
    box-shadow: none;
 }
+
+
