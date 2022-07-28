@@ -1,7 +1,60 @@
 {
-    "Name": "Julieta Lopez",
-    "backImage": "href//assets/JuliVideo.mp4",
-    "image": "hrer://assets/809.png"
-  
-  
+        "Persona": [
+            {
+                "id": "1",
+                "nombres": "Julieta Paola",
+                "apellido": "Lopez",
+                "fecha_nacimiento": "04/04/1990",
+                "nacionalidad": "Argentina",
+                "email": "julieta.lopez@live.com",
+                "sobre_mi": "Matemático, físico e informático argentino considerado por muchos como el padre de la computación en la Argentina.",
+                "ocupación": "Desarrolladora Web Full Stack",
+                "image_background_header": "../../../assets/JuliVideo.mp4",
+                "image_perfil": "./../assets/809.jpg"
+            }
+        ],
+		"Experiencia_Laboral": [
+			{
+				"empresa":"Grupo Gestión",
+				"puesto":"Operaria",
+				"descripcion_puesto": "Tareas generales de Operaria",
+				"inicio":"2017",
+				"fin": "2017"
+			},
+			{
+				"empresa":"Legion de la buena voluntad",
+				"puesto":"Telefonista",
+				"descripcion_puesto":"Realizacion de llamadas en frio a posibles donadores",
+				"inicio":"2015",
+				"fin":"2015"
+			},
+			{
+				"empresa":"Vizno S.A",
+				"puesto":"Camarera",
+				"descripcion_puesto":"Servicio de Camarera",
+				"inicio":"2011",
+				"fin":"2014"
+			},
+			{
+				"empresa":"Instituto Educativo Argentino",
+				"puesto":"Administrativa",
+				"descripcion_puesto":"Atencion al cliente",
+				"inicio":"2010",
+				"fin":"2010"
+			}
+        ],
+		"Educacion": [
+			{
+				"escuela": "Argentina Programa #YoProgramo",
+				"titulo": "Full Stack Developer Jr",
+				"inicio": "2021",
+				"fin": "2022"
+			},
+			{
+				"escuela": "Instituto Superior en Innovaciones Pedagogicas Siglo XXI",
+				"titulo": "Tecnicatura Superior en administrción de recursos humanos",
+				"inicio": "2014",
+				"fin": "2016"
+			}
+		]	
 }
