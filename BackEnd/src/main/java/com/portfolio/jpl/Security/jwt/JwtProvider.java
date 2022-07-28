@@ -16,7 +16,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class JwtProvider {
-
     private final static Logger logger = LoggerFactory.getLogger(JwtProvider.class);
 
     @Value("${jwt.secret}")
@@ -28,7 +27,7 @@ public class JwtProvider {
         UsuarioPrincipal usuarioPrincipal = (UsuarioPrincipal) authentication.getPrincipal();
         return Jwts.builder().setSubject(usuarioPrincipal.getUsername())
                 .setIssuedAt(new Date())
-                .setExpiration(new Date(new Date().getTime() + expiration * 1000))
+                .setExpiration(new Date(new Date().getTime()+expiration*1000))
                 .signWith(SignatureAlgorithm.HS512, secret)
                 .compact();
     }

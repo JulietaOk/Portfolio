@@ -8,7 +8,6 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 public class UsuarioPrincipal implements UserDetails {
-
     private String nombre;
     private String nombreUsuario;
     private String email;
@@ -37,7 +36,7 @@ public class UsuarioPrincipal implements UserDetails {
     public String getPassword() {
         return password;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
