@@ -7,6 +7,7 @@ const AUTHORITIES_KEY = 'AuthAuthorities';
 @Injectable({
   providedIn: 'root'
 })
+
 export class TokenService {
   roles: Array<string> = [];
 
@@ -20,6 +21,7 @@ export class TokenService {
   public getToken(): string {
     return sessionStorage.getItem(TOKEN_KEY)!;
   }
+  
   public setUserName(userName: string): void {
     window.sessionStorage.removeItem(USERNAME_KEY);
     window.sessionStorage.setItem(USERNAME_KEY, userName);
