@@ -17,9 +17,8 @@ img {
     width: 50px;
 }
 
-.btn {
-    border-width: medium;
-    border-radius: 2em;
+.btn{
+    border-radius: medium;
 }
 
 @media (max-width: 575px) {
@@ -34,6 +33,6 @@ img {
 }
 
 .redes img {
-    margin: 0.2em;
+    margin: 0.5em;
 }
 }

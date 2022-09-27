@@ -2,7 +2,7 @@
         "Persona": [
             {
                 "id": "1",
-                "nombres": "Julieta Paola",
+                "nombre": "Julieta Paola",
                 "apellido": "Lopez",
                 "fecha_nacimiento": "04/04/1990",
                 "nacionalidad": "Argentina",
